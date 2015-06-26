@@ -1,0 +1,23 @@
+\documentclass{article} 
+
+\usepackage{filecontents}
+
+\begin{filecontents*}{refs.bib}
+@BOOK
+    {KandR,
+     AUTHOR  = "Kernighan, Brian W. and Ritchie, Dennis M.",
+     TITLE   = "{The C Programming Language Second Edition}",
+     PUBLISHER = "Prentice-Hall, Inc.",
+     YEAR = 1988
+    }
+\end{filecontents*}
+
+\usepackage{biblatex} 
+\addbibresource{refs.bib} 
+
+\begin{document} 
+
+Hello\cite{KandR}
+\printbibliography 
+
+\end{document}
