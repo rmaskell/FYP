@@ -1,0 +1,15 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'Research Notes.blg'
+[42] biber:276> INFO - === Tue Jul  7, 2015, 13:43:23
+[43] Biber.pm:333> INFO - Reading 'Research Notes.bcf'
+[140] Biber.pm:645> INFO - Found 1 citekeys in bib section 0
+[158] Biber.pm:2977> INFO - Processing section 0
+[174] Biber.pm:3115> INFO - Looking for bibtex format file 'Research.bib' for section 0
+[175] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[175] bibtex.pm:895> INFO - Found BibTeX data source 'Research.bib'
+[207] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[207] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[207] Biber.pm:2854> INFO - Sorting list 'ynt' of type 'entry' with scheme 'ynt' and locale 'en-US'
+[207] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[209] bbl.pm:505> INFO - Writing 'Research Notes.bbl' with encoding 'ascii'
+[210] bbl.pm:596> INFO - Output to Research Notes.bbl
