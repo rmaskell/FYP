@@ -1,0 +1,50 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{ynt}{ynt}
+    \entry{Daw}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=82a482f11559264c075df8c0a7bd144a}{Daw}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=054a10daa0e0b12478e8801e348f6148}{Niv}{N\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=35f33b3c9d1abe5e4b853c034926cd08}{Dayan}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{fdf0a407537b892fb2c45ef42bd57d9e}
+      \strng{fullhash}{fdf0a407537b892fb2c45ef42bd57d9e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Neuroscience}
+      \field{number}{12}
+      \field{title}{Uncertainty-based competition between prefrontal and dorsolateral striatal systems for behavioural control}
+      \field{volume}{8}
+      \field{year}{2005}
+      \field{pages}{1704\bibrangedash 1711}
+      \range{pages}{8}
+      \verb{url}
+      \verb http://www.nature.com/neuro/journal/v8/n12/abs/nn1560.html
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
