@@ -42,15 +42,19 @@
 
 	\subsubsection{Deferred Rewards}
 
-		Deferred rewards, such as those dependant on multiple consecutive actions, present complications in predicting the value of actions in reinforcement learning as an initial choice in the sequence may not produce any immediate rewards, only a deferred one. Two different classes of reinforcement learning are used to produce different action's values, which are model-free approaches and model-based approaches.
+		Deferred rewards, such as those dependant on multiple consecutive actions, present complications in predicting the value of actions in reinforcement learning as an initial choice in the sequence may not produce any immediate rewards, only a deferred one. Two different classes of reinforcement learning are used to produce different action's values, which are model-free approaches and model-based approaches. ``We interpret the two controllers as representing opposite extremes in a trade-off between the statistically efficient use of experience and computational tractability'' \parencite{Daw}
 
 	\subsubsection{The Model-Free Approach}
 
-		``[These] underpin existing popular accounts of the activity of dopamine neurons and their (notably dorsolateral) striatal projections'' \parencite{Daw}.
+		``[These] underpin existing popular accounts of the activity of dopamine neurons and their (notably dorsolateral) striatal projections'' \parencite{Daw}. One such method is temporal-difference learning which is founded on the principle of 'caching' which is ``the association of an action or situation with a scalar summary of its long-run future value.
+		A hallmark of this is the ubiquitous transfer of the dopaminergic response from rewards to the stimuli that predict them'' \parencite{Daw} This method is computationally simple but has the disadvantage of the values being separated from the outcomes and thus, do not change when the outcome is re-valued on the fly.
+
 
 	\subsubsection{The Model-Based Approach}
 
-		``[This approach] involves 'model-based' methods, which we identify with the prefrontal cortex system'' \parencite{Daw}
+		``[This approach] involves 'model-based' methods, which we identify with the prefrontal cortex system'' \parencite{Daw} The predictions are said to be calculated ``on the fly, by chaining together short-term predictions about the immediate consequences of each action in a sequence'' \parencite{Daw}. Since there is a branching set of situations produced from each action in a state which need to be explored, this is often refered to as 'tree search'. 
+		This method can be very computationally expensive due to this exploration of deep trees and can also be erroneous as a result of its complexity. 
+		However, an advantage of this approach is that the predicted values are able to react flexibly to outcome re-valuation as they are constructed on the fly.
 
 	\subsubsection{Accuracy of Different Reinforcement Learning Approaches}
 
@@ -60,7 +64,7 @@
 
 		Strict separation between the systems is assumed in order to isolate their hypothesis
 
-	
+
 
 
 
