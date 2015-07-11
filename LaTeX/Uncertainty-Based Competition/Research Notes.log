@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.6)  7 JUL 2015 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.6)  11 JUL 2015 20:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,19 +309,19 @@ Overfull \hbox (1.0646pt too wide) in paragraph at lines 12--12
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 75.
+(Font)              <7> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 75.
+(Font)              <5> on input line 81.
  [3] (./Research Notes.aux)
 Package logreq Info: Writing requests to '"Research Notes".run.xml'.
 \openout1 = `"Research Notes.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 6000 strings out of 493093
- 105037 string characters out of 6134996
- 516085 words of memory out of 5000000
- 9472 multiletter control sequences out of 15000+600000
+ 6001 strings out of 493093
+ 105048 string characters out of 6134996
+ 516089 words of memory out of 5000000
+ 9473 multiletter control sequences out of 15000+600000
  8710 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,6n,59p,835b,998s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -333,7 +333,7 @@ usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "Research Notes.pdf" (3 pages, 108663 bytes).
+Output written on "Research Notes.pdf" (3 pages, 110022 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream

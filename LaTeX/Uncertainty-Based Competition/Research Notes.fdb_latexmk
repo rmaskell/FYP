@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber Research Notes"] 1436276917 "Research Notes.bcf" "Research Notes.bbl" "Research Notes" 1436276919
-  "Research Notes.bcf" 1436276919 102175 7cb70cf9c5b9e7b15862fa13640d2840 ""
+["biber Research Notes"] 1436644399 "Research Notes.bcf" "Research Notes.bbl" "Research Notes" 1436644401
+  "Research Notes.bcf" 1436644401 102221 b6183c1df5a867791dcddd92b8ab20e3 ""
   "Research.bib" 1436266283 419 9556f608263b7c9f29585a56b12692c9 ""
   (generated)
   "Research Notes.bbl"
-["pdflatex"] 1436276918 "Research Notes.tex" "Research Notes.pdf" "Research Notes" 1436276919
+["pdflatex"] 1436644400 "Research Notes.tex" "Research Notes.pdf" "Research Notes" 1436644401
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -57,13 +57,13 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1436219647 1775195 99807e25f37f212b8bda6a8baea0e8a3 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1436219677 3849881 df08cda546638f1a02fa23fef2339a12 ""
   "/usr/local/texlive/2015/texmf.cnf" 1436219644 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "Research Notes.aux" 1436276919 2650 06b21f7400597f22d315fc4369b6619b ""
-  "Research Notes.bbl" 1436276917 1665 4f424f69955eae0f4777414b41e790f8 "biber Research Notes"
-  "Research Notes.run.xml" 1436276919 2393 7b61db7e3754c55f01d9ab8dd493ec14 ""
-  "Research Notes.tex" 1436276911 5032 3af678f16e85ab92e251100803784878 ""
+  "Research Notes.aux" 1436644401 2957 e9e0979c6fd3aa2527544bc98fe18982 ""
+  "Research Notes.bbl" 1436644400 1665 4f424f69955eae0f4777414b41e790f8 "biber Research Notes"
+  "Research Notes.run.xml" 1436644401 2393 7b61db7e3754c55f01d9ab8dd493ec14 ""
+  "Research Notes.tex" 1436644388 5413 696543a79ce688918dc1a985177baeea ""
   (generated)
   "Research Notes.pdf"
-  "Research Notes.run.xml"
-  "Research Notes.bcf"
   "Research Notes.log"
+  "Research Notes.run.xml"
   "Research Notes.aux"
+  "Research Notes.bcf"
