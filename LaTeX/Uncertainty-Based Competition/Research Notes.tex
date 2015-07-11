@@ -65,11 +65,17 @@
 		Strict separation between the systems is assumed in order to isolate their hypothesis
 
 
-	\subsection{Results}
+\subsection{Results}
 
 	\subsubsection{Post-training Reinforcer Devaluation}
 
-	A typical psychological experiments involving post-training reinforcer devaluation is mentioned by \textcite{Daw} where ``hungry rats are trained to perform a sequence of actions, [...] to obtain a reward such as a food pellet''. The value of the reward is then reduced, by either feeding the rats before hand or by tainting the food pellets to associate an aversion to them for the rats. The test is then repeated to see the effect of the devalued reward on the animal's behaviour. 
+		A typical psychological experiments involving post-training reinforcer devaluation is mentioned by \textcite{Daw} where ``hungry rats are trained to perform a sequence of actions, [...] to obtain a reward such as a food pellet''. The value of the reward is then reduced, by either feeding the rats before hand or by tainting the food pellets to associate an aversion to them for the rats. The test is then repeated to see the effect of the devalued reward on the animal's behaviour. 
+
+		Such experiments can be used to compare different behavioural models such as tree search and caching. The values associated with actions in caching are independant of any outcome information. ``Thus, if an animal acts based on a cached value, it will continue to do so even after the outcome has been devalued'' \parencite{Daw}. Such behaviour is known as `habitual'. ``If, however a behaviour is determined by tree search, its propensity should be sharply reduced following devaluation'' \parencite{Daw}. Such behaviour is known as `goal-directed' and changed when the value of goals is changed.
+
+		Animals have been shown to posess both levels of devaluation sensitivity, with extensive training leading to transfer of control to a caching system from a tree search one. ``Lesions or depletions of dopaminergic input to dorsolateral areas of the striatum evidently block this transfer of control'' \parencite{Daw} leading to behaviour being sensitive to devaluation, even after extensive training.
+
+		The transfer of control is also affected by ``the complexity of action choice and the proximity of the action to reward'' \parencite{Daw}, with complex action choices remaining sensitive to outcome devaluation following extensive training, as well as actions which are closer to the reward remaining more sensitive to devaluation than actions further away.
 
 
 \subsection{Notes}
