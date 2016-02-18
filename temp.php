@@ -17,8 +17,8 @@ function resetPassword($ticket, $emailAddress, $newPassword){
 		
 		if ($checkTicket == $ticket){
 		  
-		  //Clean query input
-		  $emailAddress = secureStrings($emailAddress);
+			//Clean query input
+			$emailAddress = secureStrings($emailAddress);
 		
 			$newPassword = saltPassword($newPassword);
 			$databaseQuery = "UPDATE login SET password='$newPassword' WHERE emailAddress='$emailAddress'";
