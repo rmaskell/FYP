@@ -10,6 +10,15 @@ function secureStrings($input, $con){
 	return $output;
 }
 
+//Instance class
+function createInstance(){
+	
+	//Instancing
+	$obj = new declarations;
+	return $obj;
+
+}
+
 function resetPassword($ticket, $emailAddress, $newPassword){
 	//Create query
 	$databaseQuery = "SELECT * FROM login WHERE emailAddress='$emailAddress'";
@@ -28,7 +37,8 @@ function resetPassword($ticket, $emailAddress, $newPassword){
 		if ($checkTicket == $ticket){
 		  
 			//Clean query input
-			$emailAddress = secureStrings($emailAddress);
+			$con = createInstance();
+			$emailAddress = $con->real_escape_string($emailAddress);
 		
 			$newPassword = saltPassword($newPassword);
 			$databaseQuery = "UPDATE login SET password='$newPassword' WHERE emailAddress='$emailAddress'";
