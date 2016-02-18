@@ -1,5 +1,15 @@
 <?php
 
+
+//Clean strings for security
+function secureStrings($input, $con){
+	
+	$con->real_escape_string($input);
+	
+	//Return
+	return $output;
+}
+
 function resetPassword($ticket, $emailAddress, $newPassword){
 	//Create query
 	$databaseQuery = "SELECT * FROM login WHERE emailAddress='$emailAddress'";
